@@ -119,3 +119,6 @@ int main()
 	getchar();
 	return 0;
 }
+
+addmain
+
