@@ -1,4 +1,6 @@
-## Fivem-Bypass [Discord](https://discord.gg/ADS8VHJndK)
+## Fivem-Bypass 
+
+### Join Discord : https://discord.gg/JUyNjXCG5d
 
 #### ScriptHook Bypass For Fivem / bypass hardware ID For nvdia only
 
