@@ -3,6 +3,8 @@
 #include <TlHelp32.h>
 #include <string>
 #include <time.h>
+#include <time.h>
+
 
 const uintptr_t retOffset = 0x2CD80;
 const uintptr_t shAllowedOffset = 0x68140;
@@ -122,3 +124,4 @@ int main()
 
 addmain
 
+: FiveM
