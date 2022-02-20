@@ -1,6 +1,6 @@
 ## Fivem-Bypass 
 
-### [Discord.gg/Sarnax](https://discord.com/invite/sarnax)
+### Sell Cheating Private / Source code Contact discord  [Discord.gg/Sarnax](https://discord.com/invite/sarnax) 
 
 #### ScriptHook Bypass For Fivem / bypass hardware ID For nvdia only
 
