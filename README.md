@@ -1,9 +1,16 @@
 ## Fivem-Bypass 
+> Scriptshook Bypass // Hardware GPU bypass Nvdia
 
-### FOR SUPPORT : [Discord.gg/Sarnax](https://discord.com/invite/sarnax) 
-> #### Discord : Sarnax#9999
+  <p align="center">
+    <a href="https://discord.gg/bzfWPSsDfR">
+        <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discord.c99.nl/widget/theme-4/582142955742298132.png"/>
+    </a>
+</p>
 
 ***
+
+#### 💬 For Support : [Discord.gg/Sarnax](https://discord.com/invite/sarnax) 
+> ##### Discord : Sarnax#9999
 
 **Discord Support & Sell**
 > - Craete Cheating Private // Not Detected & If Banned = Refund
@@ -11,15 +18,7 @@
 
 ***
 
-#### ScriptHook Bypass For Fivem / bypass hardware ID For nvdia only
-
-## Not Working?
-
-#### Run as admin and disable your antivirus.
-
-***
-
-- # How to use
+- ### How to use
 #### 1. Put your .asi mods in %LocalAppData%/FiveM/FiveM Application Data/Plugins, creating the Plugins folder if it doesn't exist.
 #### 2. Start FiveM and the bypass. Order doesn't matter. ( Run as Admin file By.pass fivem.exe )
 #### 3. Enjoy!
