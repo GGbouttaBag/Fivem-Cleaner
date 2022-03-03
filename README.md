@@ -1,5 +1,5 @@
 ## Fivem-Bypass 
-> Scriptshook Bypass // Hardware GPU bypass Nvdia
+Scriptshook Bypass // Hardware GPU bypass Nvdia
 
 ***
   <p align="center">
