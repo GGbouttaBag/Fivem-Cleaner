@@ -9,15 +9,14 @@ Scriptshook Bypass // Hardware GPU bypass Nvdia
 </p>
 
 
-#### 💬 Join Discord : [Discord.gg/Sarnax](https://discord.gg/sFUeS3E6Sz) (NEW SERVER)
+#### 💬 Join Discord & Support : [Discord.gg/Sarnax](https://discord.gg/sFUeS3E6Sz) (New Server)
 > - DM for buy Cheating Private & Source
 > - come in to be the same society as us
 
 ***
 
-## **Fivem** **Bypass  Hardawre ID GPU Nvdia ** 
+### **Fivem** **Bypass  Hardawre ID GPU Nvdia ** 
 
-***
 #### - It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.
 
 #### - Prevent from being banned 365 Day / 13 Day / and some servers
