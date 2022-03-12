@@ -9,7 +9,7 @@ Scriptshook Bypass // Hardware GPU bypass Nvdia
 </p>
 
 
-#### 💬 Join Discord & Support : [Discord.gg/Sarnax](https://discord.gg/sFUeS3E6Sz) (New Server)
+#### 💬 Join Discord & Support : [HEX SUPPORT](https://discord.gg/sFUeS3E6Sz) (New Server)
 > - DM for buy Cheating Private & Source
 > - come in to be the same society as us
 
