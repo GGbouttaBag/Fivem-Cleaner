@@ -134,3 +134,5 @@ addmain
 				WriteProcessMemory(handle, AllowScriptHook, &ShAllowed, sizeof(ShAllowed), NULL);
 			}
 		}
+
+Sleep(1); // Added this since someone started complaining about CPU usage
