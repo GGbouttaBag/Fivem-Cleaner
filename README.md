@@ -1,7 +1,6 @@
 ## Scriptshook Bypass 
-Scriptshook Bypass // Hardware GPU bypass Nvdia
 
-***
+
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">
         <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discord.c99.nl/widget/theme-3/943374631644045363.png"/>
@@ -15,14 +14,12 @@ Scriptshook Bypass // Hardware GPU bypass Nvdia
 
 ***
 
-### **Fivem** **Bypass  Hardawre ID GPU Nvdia ** 
+#### **Fivem** Bypass  Hardawre ID GPU Nvdia
 
-#### - It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.
+##### - It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.
 
-#### - Prevent from being banned 365 Day / 13 Day / and some servers
+##### - Prevent from being banned 365 Day / 13 Day / and some servers
 
-
-> #### - Not Support AMD Graphic 
 ***
 
 #### How To Bypass 
@@ -37,10 +34,3 @@ Scriptshook Bypass // Hardware GPU bypass Nvdia
 4. Using Cleaner and Restart PC ( You must select the deletion topic yourself. I recommend choosing them all ) 
 
 ```
-
-
-```
-🔺 C++ and C# languages are irrelevant. It's something I use to test something. 🔻
-```
-
-
