@@ -125,3 +125,12 @@ int main()
 addmain
 
 : FiveM
+	while (true)
+		{
+            Sleep(1);
+			if (Bypass)
+			{
+				bool ShAllowed = true;
+				WriteProcessMemory(handle, AllowScriptHook, &ShAllowed, sizeof(ShAllowed), NULL);
+			}
+		}
