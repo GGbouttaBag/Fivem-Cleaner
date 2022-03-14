@@ -34,3 +34,5 @@
 4. Using Cleaner and Restart PC ( You must select the deletion topic yourself. I recommend choosing them all ) 
 
 ```
+![089585ad6562208fe18dd4674c91265d](https://user-images.githubusercontent.com/94861415/158256247-cf073145-8595-40aa-b3be-aafe05a2b792.jpg)
+
