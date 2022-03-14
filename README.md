@@ -14,7 +14,7 @@
 
 ***
 
-## 1) **Fivem** Bypass  Hardawre ID GPU Nvdia
+Fivem Bypass  Hardawre ID GPU Nvdia
 
 ##### - It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.
 
