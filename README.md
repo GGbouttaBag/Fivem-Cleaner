@@ -14,7 +14,7 @@
 
 ***
 
-#### **Fivem** Bypass  Hardawre ID GPU Nvdia
+#### 1) **Fivem** Bypass  Hardawre ID GPU Nvdia
 
 ##### - It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.
 
@@ -22,7 +22,7 @@
 
 ***
 
-#### How To Bypass 
+#### 2) How To Bypass 
 
 ```
 1. Go To " C:\Users\your username\AppData\Local " After that delete Folder  " DigitalEntitlements " 
