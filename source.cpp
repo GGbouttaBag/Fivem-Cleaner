@@ -95,6 +95,12 @@ int main()
 				WriteProcessMemory(handle, AllowScriptHook, &ShAllowed, sizeof(ShAllowed), NULL);
 			}
 		}
+		
+		
+				PROCESSENTRY32 procEntry;
+		procEntry.dwSize = sizeof(procEntry);
+ 
+		if (Process32First(hSnap, &procEntry))
  
 	}
 	else
@@ -105,5 +111,6 @@ int main()
 	CloseHandle(handle);
  
 	return 0;
+	
 	
 }
