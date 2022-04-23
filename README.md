@@ -13,20 +13,21 @@
     </a>
 </p>
 
-### 📌・  JOIN DISCORD / BUY : [HEX COMMUNITY](https://discord.gg/6ZdJwQ7Dmk) 
+### 📌・  JOIN DISCORD / SUPPORT : [HEX COMMUNITY](https://discord.gg/6ZdJwQ7Dmk) 
 
+* ` TEACH HOW TO USE AND HELP SOLVE PROBLEMS
 * ` SELL CHEATING PRIVATE / SPOOFER / SOURCE CODE / ETC `
 * ` IF YOU WANT A SAFE CHEATING PRIVATE , THINK OF ME`
 * ` SAFE 100% IF BANNED = REFUND`
 * ` UPDATE LIFETIME & SUPPORT 24 HR `
 
-🤓・To order, please add a friend to request an invitation to the Discord server.
+🐵・**We** have a backup server base and many main servers and we are **LEGIT**
  ```sh-session
 If you can't join the server please add me to invite discord server : Sarnax#7522
 ```          
 ***
 
-Fivem Bypass  Hardawre ID GPU Nvdia
+## Fivem Bypass  Hardawre ID GPU Nvdia
 
 * ` It's not called bypassing, it's deleting Nvdia's GPU ID, which doesn't help get a hardware ID ban.`
 
@@ -34,7 +35,7 @@ Fivem Bypass  Hardawre ID GPU Nvdia
 
 
 
-## 2) How To Bypass 
+##  How To Bypass 
 
 ***
 * ` Go To " C:\Users\your username\AppData\Local " After that delete Folder  " DigitalEntitlements " `
