@@ -1,5 +1,8 @@
 ## BYPASS HARDWARE ID BANNED GPU ID ( NVDIA ONLY !!)
-
+ ```sh-session
+ SUPPORT NVDIA ONLY ( NOT SUPPORT AMD ) 
+ ```
+ 
 ***
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">
