@@ -9,7 +9,6 @@ echo.
 echo    BASE LOADING... [Fake Loading BTW imagine making fake loading]
 timeout 3 >nul
 echo.
-echo.
 echo [32m[] Activated Rooms[0m
 echo.
 echo [32m[] Searching For Base[0m
