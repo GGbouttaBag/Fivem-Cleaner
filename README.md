@@ -13,7 +13,7 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
 
 ***
  
-## 📕 DISCORD : [HEX PROJECT](https://discord.gg/7vVb9g7FGT) 
+### 💬 DISCORD ・ [HEX COMMUNITY](https://discord.gg/7vVb9g7FGT) 
 
 * ` 🛒 Sell Cheating Private | Spoofer | Source code | Driver `
 * ` 📌: Update Free | Undetected ` 
