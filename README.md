@@ -13,7 +13,6 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
 </p>
 
 
-***
  
 ### 💬 DISCORD ・ [HEX PROJECT](https://discord.gg/MBTkVcJefp) 
 
