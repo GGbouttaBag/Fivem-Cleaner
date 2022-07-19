@@ -3,6 +3,8 @@
 BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
  ```
  
+ - This repository doesn't have anything, just files for removing traces/and bypassing the gpu, you can read it on the line below.
+ 
 ***
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">
@@ -15,22 +17,23 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
  
 ### 💬 DISCORD ・ [HEX PROJECT](https://discord.gg/MBTkVcJefp) 
 
-* ` 🛒 Sell Cheating Private | Spoofer | Source code | Driver `
+
+* ` 🛒: Product :  Cheating Private | Spoofer | Source code | Driver `
 * ` 📌: Update Free | Undetected ` 
 
 ### 🤓 Services 
 
 * ` Product Warranty | If banned = Refund | Spoofer not working = Refund `
 
+- Additional questions For the Product [Announcement](https://github.com/SarnaxLii/Announcement)
 
 #### 📝 WEBSITE [SARNAX.COM](https://sarnax.xyz)
 
  ```sh-session
-・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD FOR BUY  ・
+・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD : Sarnax#7522・ 
 ```                
-
-
 ***
+
 
 ## Fivem Bypass  Hardawre ID GPU Nvdia
 
