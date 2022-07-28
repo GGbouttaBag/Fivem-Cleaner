@@ -1,7 +1,7 @@
 ## BYPASS HARDWARE ID BANNED GPU ID ( NVDIA ONLY !!)
  ```sh-session
 BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
- ```
+ ``` 
  
  - This repository doesn't have anything, just files for removing traces/and bypassing the gpu, you can read it on the line below.
  
