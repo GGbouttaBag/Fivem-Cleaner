@@ -4,7 +4,8 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
  ``` 
  
  - This repository doesn't have anything, just files for removing traces/and bypassing the gpu, you can read it on the line below.
- 
+ - This is not a Spoofer, it's just for cleaning junk files. It didn't change the number at all. So please understand about it.
+  
 ***
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">
