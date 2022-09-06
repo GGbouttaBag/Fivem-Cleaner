@@ -6,16 +6,18 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
  - This repository doesn't have anything, just files for removing traces/and bypassing the gpu, you can read it on the line below.
  - This is not a Spoofer, it's just for cleaning junk files. It didn't change the number at all. So please understand about it.
   
-***
+*** 
   <p align="center">
     <a href="https://discord.com/users/943374631644045363">
-        <img title="Sarnax discord" alt="SarnaxLii's discord" src="https://discord.c99.nl/widget/theme-3/943374631644045363.png"/>
+        <img title="Fnoberz discord" alt="Fnoberz's discord" src="https://discord.c99.nl/widget/theme-3/943374631644045363.png"/>
     </a>
-</p>
+</p> 
+
+
  
-</p>  
-  
-### 💬 DISCORD ・ [HEX PROJECT](https://discord.gg/MBTkVcJefp)   
+***
+ 
+### 💬 DISCORD ・ [CLOUD | PROJECT](https://discord.gg/MBTkVcJefp) 
 
 
 * ` 🛒: Product :  Cheating Private | Spoofer | Source code | Driver `
@@ -27,10 +29,10 @@ BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM
 
 - Additional questions For the Product [Announcement](https://github.com/SarnaxLii/Announcement)
 
-#### 📝 WEBSITE [SARNAX.COM](https://sarnax.xyz)
+#### 📝 WEBSITE [FNOBERZ.COM](https://sarnax.xyz)
 
  ```sh-session
-・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD : Sarnax#7522・ 
+・ OUR CHEATING PRIVATE CAN PLAY MAIN ACCOUNT WITHOUT GETTING BANNED / JOIN DISCORD : Fnoberz#0001・ 
 ```                
 ***
 
