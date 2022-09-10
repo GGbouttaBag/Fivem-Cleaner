@@ -4,6 +4,8 @@ taskkill /f /im Steam.exe /t
 cls
 set hostspath=%windir%\System32\drivers\etc\hosts
 cls
+cls
+cls
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing\HardwareID / f
 cls
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing\Store / f
