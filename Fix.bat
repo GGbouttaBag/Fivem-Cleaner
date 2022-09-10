@@ -11,6 +11,15 @@ sc delete XblAuthManager
 sc delete XblGameSave
 sc delete XboxNetApiSvc
 sc delete XboxGipSvc
+sc stop XblAuthManager
+sc stop XblGameSave
+sc stop XboxNetApiSvc
+sc stop XboxGipSvc
+sc delete XblAuthManager
+sc delete XblGameSave
+sc delete XboxNetApiSvc
+sc delete XboxGipSvc
+
 reg delete "HKLM\SYSTEM\CurrentControlSet\Services\xbgm" /f
 schtasks /Change /TN "Microsoft\XblGameSave\XblGameSaveTask" /disable
 schtasks /Change /TN "Microsoft\XblGameSave\XblGameSaveTaskLogon" /disableL
