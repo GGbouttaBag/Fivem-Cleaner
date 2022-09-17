@@ -5,7 +5,6 @@ cls
 set hostspath=%windir%\System32\drivers\etc\hosts
 cls
 cls
-cls
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing\HardwareID / f
 cls
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing\Store / f
@@ -108,3 +107,4 @@ del / s / q / f %LocalAppData%\FiveM\FiveM.app\crashes\*.*
 cls
 RENAME % userprofile %\AppData\Roaming\discord\0.0.309\modules\discord_rpc Gp8n0I3Nu1iiJzwGA
 cls
+
