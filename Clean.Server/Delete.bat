@@ -50,8 +50,7 @@ reg delete "HKEY_CURRENT_USER\Software\Classes\Installer\Dependencies" /v MSICac
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Direct3D" /v WHQLClass /f
 rd /q /s %systemdrive%\$Recycle.Bin
 rd /q /s d:\$Recycle.Bin
-rd /q /s e:\$Recycle.Bin
-rd /q /s f:\$Recycle.Bin
+
 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography" /v MachineGuid /t REG_SZ /d %Hex8%-%Hex1%-%Hex0%-%Hex1%-%Hex10% /f>nul 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v BuildGUID /t REG_SZ /d %Hex8%-%Hex1%-%Hex0%-%Hex1%-%Hex10% /f>nul 2>&1
