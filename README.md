@@ -1,7 +1,9 @@
 ## FIVEM CLEANER & BYPASS
- ```sh-session
-BYPASS GPU ID BANNED  / REMOVE TRACE FILE FIVEM 
- ``` 
+![BTT](https://img.shields.io/badge/-Batch_FILE-black?style=for-the-badge&logo=css3&logoColor=2091EB)
+![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=356E9E)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
+![BTT](https://img.shields.io/badge/BYPASS-372248?style=for-the-badge&logo=mysql&logoColor=white)
+
  
 #### 💭 〢 HOW TO USE:
 
