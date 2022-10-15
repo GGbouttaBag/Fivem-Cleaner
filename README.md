@@ -11,6 +11,17 @@
 - Use to sort files in descending order. " **Cleaner 1-4 > Fix > Cleaner.** " | Scroll down the text to see how to bypass.
 - ❌ You should backup Windows before using it. Because it may delete your important files.
   
+  
+  
+### 🔎 〢 FIVEM BYPASS: 
+
+- Go To " `C:\Users\your username\AppData\Local` " After that delete Folder  " `DigitalEntitlements` "
+- Go To " C:\Program Files (x86) " After Create Folder Name " Blade Group
+- Windows + R = CMD  " `Netsh int ip reset` " And Enter
+- Using Cleaner and Restart PC (You must select the deletion topic yourself. I recommend choosing them all)
+
+
+
 ---
 
   <p align="center">
@@ -37,18 +48,6 @@ A website that I created to introduce myself from start to finish. hope you like
 
 ---
 
-***
-
-### 🔎 〢 FIVEM BYPASS: 
-
-- Go To " `C:\Users\your username\AppData\Local` " After that delete Folder  " `DigitalEntitlements` "
-- Go To " C:\Program Files (x86) " After Create Folder Name " Blade Group
-- Windows + R = CMD  " `Netsh int ip reset` " And Enter
-- Using Cleaner and Restart PC (You must select the deletion topic yourself. I recommend choosing them all)
-
-***
-
 <h2 align="center"> Copyright © 2021 - 2022
 
 ##### <p align="center">  FNOBERZ OFFICIAL / JOIN DISCORD [CLOUD PROJECT](https://discord.gg/JUwFCGHbV4)
-
