@@ -54,13 +54,6 @@ taskkill /f /im java.exed
 TIMEOUT /T 1
 color c
 cls
-echo " _    _                 _____ _     _      _     _ "
-echo "| |  | |               /  ___| |   (_)    | |   | |"
-echo "| |  | | __ ___   _____\ `--.| |__  _  ___| | __| |"
-echo "| |/\| |/ _` \ \ / / _ \`--. \ '_ \| |/ _ \ |/ _` |"
-echo "\  /\  / (_| |\ V /  __/\__/ / | | | |  __/ | (_| |"
-echo " \/  \/ \__,_| \_/ \___\____/|_| |_|_|\___|_|\__,_|"
-echo .
 echo Optimized and Cleared cache, this script was created by ayznnnn#3964
 echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx
 
