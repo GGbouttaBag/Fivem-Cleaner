@@ -85,7 +85,7 @@ echo.
 echo Redirection vers le tutoriel d'installation...
 ping localhost -n 3 >nul
 echo Redirection effectuee
-start https://discord.gg/MBTkVcJefp
+start https://discord.gg/9pdnvncat3 // It Up you !
 echo.
 echo Fermeture du programme en cours...
 ping localhost -n 5 >nul
