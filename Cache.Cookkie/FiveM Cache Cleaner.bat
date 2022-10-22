@@ -29,7 +29,7 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\unconfirmed"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\crashometry"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\launcher_skip_mtl2"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\session"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
+del /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\mods"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
@@ -50,12 +50,15 @@ taskkill /f /im speedfan.exe
 taskkill /f /im TeamWiever_Service.exe
 taskkill /f /im opera.exe
 taskkill /f /im java.exed
+taskkill /f /im discord.exe
+taskkill /f /im steam.exe
+taskkill /f /im fivem.exe
 
 TIMEOUT /T 1
 color c
 cls
 echo Optimized and Cleared cache, this script was created by ayznnnn#3964
-echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx
+echo You Need a FiveM Anticheat ? WaveShield is here : https://discord.gg/9pdnvncat3
 
 set ip=
 set /p ip= "You can now enter the server ip address to connect:"
