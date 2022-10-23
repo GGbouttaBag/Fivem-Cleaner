@@ -56,7 +56,7 @@ taskkill /f /im fivem.exe
 
 TIMEOUT /T 1
 color c
-cls
+cls 
 echo Optimized and Cleared cache, this script was created by ayznnnn#3964
 echo You Need a FiveM Anticheat ? WaveShield is here : https://discord.gg/9pdnvncat3
 
