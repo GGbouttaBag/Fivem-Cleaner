@@ -12,7 +12,7 @@
    
  
   
-### 🔎 〢 FIVEM BYPASS: 
+### 🔎 〢 FIVEM BYPASS:  
 
 - Go To " `C:\Users\your username\AppData\Local` " After that delete Folder  " `DigitalEntitlements` "
 - Go To " C:\Program Files (x86) " After Create Folder Name " Blade Group
