@@ -49,7 +49,6 @@ taskkill /f /im OneDrive.exe
 taskkill /f /im speedfan.exe
 taskkill /f /im TeamWiever_Service.exe
 taskkill /f /im opera.exe
-taskkill /f /im java.exed
 taskkill /f /im discord.exe
 taskkill /f /im steam.exe
 taskkill /f /im fivem.exe
