@@ -33,9 +33,6 @@ del /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\mods"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\caches.XML"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\adhesive.dll"
-
 
 
 echo Optimizing Your Computer for FiveM...
@@ -59,8 +56,10 @@ cls
 echo Optimized and Cleared cache, this script was created by ayznnnn#3964
 echo You Need a FiveM Anticheat ? WaveShield is here : https://discord.gg/9pdnvncat3
 
-set ip=
+set ip = %random%
 set /p ip= "You can now enter the server ip address to connect:"
 echo Connecting to %ip% ...
 start "" "fivem://connect/%ip%"
 timeout /t 10 /nobreak
+
+exit
