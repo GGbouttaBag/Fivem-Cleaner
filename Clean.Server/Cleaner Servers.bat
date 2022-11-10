@@ -41,7 +41,6 @@ ping localhost -n 3 >nul
 echo.
 echo Pour fermer cette fenetre merci d'appuyer sur une touche.
 pause
-exit
 
 :3
 color 09
@@ -55,7 +54,6 @@ echo Dossier cache supprime !
 echo.
 echo Pour fermer cette fenetre merci d'appuyer sur une touche.
 pause
-exit
 
 :4
 echo.
@@ -78,7 +76,6 @@ set /p answer="Voulez-vous voir un tutoriel video ? > "
 if /i {%ANSWER%}=={Oui} (goto :5)
 if /i {%ANSWER%}=={Non} (goto :6)
 goto :menu
-exit
 
 :5
 echo.
@@ -95,4 +92,6 @@ exit
 echo.
 echo Fermeture du programme en cours...
 ping localhost -n 3 >nul
+
+pause
 exit
