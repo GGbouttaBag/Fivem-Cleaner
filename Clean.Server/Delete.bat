@@ -10,8 +10,6 @@ reg delete "HKEY_CURRENT_USER\Software\Epic Games" /f
 reg delete "HKEY_CURRENT_USER\Software\WOW6432Node\Epic Games" /f
 reg delete "HKEY_CURRENT_USER\Software\Classes\com.epicgames.launcher" /f
 reg delete "HKEY_USERS\S-1-5-21-2097722829-2509645790-3642206209-1001\Software\Epic Games" /f
-reg delete "HKEY_CURRENT_USER\Software\Epic Games" /f
-reg delete "HKEY_CURRENT_USER\Software\Epic Games" /f
 reg delete "HKEY_CURRENT_USER\Software\WOW6432Node\Epic Games" /f 
 reg delete "HKEY_CURRENT_USER\Software\Classes\com.epicgames.launcher" /f
 reg delete "HKEY_CURRENT_USER\Software\Epic Games\Unreal Engine\Identifiers" /f
