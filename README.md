@@ -6,7 +6,7 @@
 
  
 #### 💭 〢 HOW TO USE: (Scroll down the text to read more)
-
+ 
 - Use to sort files in descending order. " **Cleaner 1-4 > Fix > Cleaner.** " | Scroll down the text to see how to bypass.
 - ❌ You should backup Windows before using it. Because it may delete your important files.
     
