@@ -10,7 +10,7 @@ echo "| |/\| |/ _` \ \ / / _ \`--. \ '_ \| |/ _ \ |/ _` |"
 echo "\  /\  / (_| |\ V /  __/\__/ / | | | |  __/ | (_| |"
 echo " \/  \/ \__,_| \_/ \___\____/|_| |_|_|\___|_|\__,_|"
 echo .
-echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx
+echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx 
 echo Press Any Key to optimize FiveM and Clear the cache
 pause >nul
 cls
