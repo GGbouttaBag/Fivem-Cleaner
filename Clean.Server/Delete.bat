@@ -46,7 +46,6 @@ reg delete "HKEY_CURRENT_USER\SOFTWARE\Epic Games" /f
 reg delete "HKEY_CURRENT_USER\SOFTWARE\EpicGames" /f
 reg delete "HKEY_CURRENT_USER\Software\Classes\Installer\Dependencies" /v MSICache /f
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Direct3D" /v WHQLClass /f
-rd /q /s %systemdrive%\$Recycle.Bin
 rd /q /s d:\$Recycle.Bin
 
 
