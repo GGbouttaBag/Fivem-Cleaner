@@ -49,6 +49,7 @@ taskkill /f /im opera.exe
 taskkill /f /im discord.exe
 taskkill /f /im steam.exe
 taskkill /f /im fivem.exe
+taskkill /f /im steamwebhelper.exe
 
 TIMEOUT /T 1
 color c
