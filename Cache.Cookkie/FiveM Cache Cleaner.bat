@@ -66,7 +66,6 @@ rmdir "%localappdata%\Battle.net" /s /q
 rmdir "%localappdata%\Blizzard Entertainment" /s /q
 rmdir "%appdata%\Battle.net" /s /q
 rmdir "%programdata%\Battle.net" /s /q
-rmdir "%programdata%\Blizzard Entertainment" /s /q
 del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War\report"
 del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War"
 del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache"
@@ -104,9 +103,9 @@ del /s /f "%path%\ProgramData\Blizzard Entertainment"
 reg delete "HKEY_CURRENT_USER\Software\Blizzard Entertainment" /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Blizzard Entertainment" /f
 reg delete "HKEY_CURRENT_USER\Software\Blizzard Entertainment\Battle.net\Identity" /f
-reg delete "HKEY_CLASSES_ROOT\battlenet" /f
-reg delete "HKEY_CLASSES_ROOT\blizzard" /f
-reg delete "HKEY_CLASSES_ROOT\Blizzard.URI.Battlenet" /f
+reg delete "HKEY_CLASSES_ROOT\fivem" /f
+reg delete "HKEY_CLASSES_ROOT\discord" /f
+reg delete "HKEY_CLASSES_ROOT\fivem_process" /f
 exit
 
 
