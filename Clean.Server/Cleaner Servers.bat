@@ -15,7 +15,7 @@ if /i {%ANSWER%}=={4} (goto :4)
 goto :menu
 exit
   
-:1
+:01
 color 09
 echo.
 echo Lancement du serveur en cours...
@@ -27,7 +27,7 @@ rem Changez les 2 chemins d'accès ci-dessus
 pause
 exit
 
-:2
+:02
 color 09
 echo -----------------------------------
 echo Creation d'une backup en cours...
@@ -42,7 +42,7 @@ echo.
 echo Pour fermer cette fenetre merci d'appuyer sur une touche.
 pause
 
-:3
+:03
 color 09
 echo.
 echo Suppression du cache en cours...
@@ -55,7 +55,7 @@ echo.
 echo Pour fermer cette fenetre merci d'appuyer sur une touche.
 pause
 
-:4
+:04
 echo.
 color 09
 echo Obtenez de l'aide sur notre serveur Discord
@@ -77,7 +77,7 @@ if /i {%ANSWER%}=={Oui} (goto :5)
 if /i {%ANSWER%}=={Non} (goto :6)
 goto :menu
 
-:5
+:05
 echo.
 echo Redirection vers le tutoriel d'installation...
 ping localhost -n 3 >nul
@@ -88,7 +88,7 @@ echo Fermeture du programme en cours...
 ping localhost -n 5 >nul
 exit
 
-:6
+:06
 echo.
 echo Fermeture du programme en cours...
 ping localhost -n 3 >nul
