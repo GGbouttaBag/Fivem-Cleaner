@@ -12,7 +12,7 @@ if /i {%ANSWER%}=={1} (goto :1)
 if /i {%ANSWER%}=={2} (goto :2)
 if /i {%ANSWER%}=={3} (goto :3)
 if /i {%ANSWER%}=={4} (goto :4)
-goto :menu
+goto :menu 
 exit
   
 :01
