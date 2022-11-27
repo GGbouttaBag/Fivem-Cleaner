@@ -15,7 +15,7 @@ echo Press Any Key to optimize FiveM and Clear the cache
 pause >nul
 cls
 
-start "" http://www.waveshield.xyz/
+start "" http://www.waveshield.xyz/ 
 start "" https://discord.com/invite/CXZwrZx
 
 echo Clearing FiveM Cache...
