@@ -42,11 +42,6 @@ reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Epic Games" /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\EpicGames" /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\EpicGames" /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Epic Games" /f
-reg delete "HKEY_CURRENT_USER\SOFTWARE\Epic Games" /f
-reg delete "HKEY_CURRENT_USER\SOFTWARE\EpicGames" /f
-reg delete "HKEY_CURRENT_USER\Software\Classes\Installer\Dependencies" /v MSICache /f
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Direct3D" /v WHQLClass /f
-rd /q /s d:\$Recycle.Bin
 
 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography" /v MachineGuid /t REG_SZ /d %Hex8%-%Hex1%-%Hex0%-%Hex1%-%Hex10% /f>nul 2>&1
