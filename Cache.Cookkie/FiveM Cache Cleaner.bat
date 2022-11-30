@@ -2,14 +2,6 @@
 title FiveM Tools - WaveShield - discord.gg/CXZwrZx
 color c
  
-
-echo " _    _                 _____ _     _      _     _ "
-echo "| |  | |               /  ___| |   (_)    | |   | |"
-echo "| |  | | __ ___   _____\ `--.| |__  _  ___| | __| |"
-echo "| |/\| |/ _` \ \ / / _ \`--. \ '_ \| |/ _ \ |/ _` |"
-echo "\  /\  / (_| |\ V /  __/\__/ / | | | |  __/ | (_| |"
-echo " \/  \/ \__,_| \_/ \___\____/|_| |_|_|\___|_|\__,_|"
-echo .
 echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx 
 echo Press Any Key to optimize FiveM and Clear the cache
 pause >nul
