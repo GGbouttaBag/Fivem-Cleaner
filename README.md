@@ -26,7 +26,7 @@
  More Here [Information](https://github.com/Cloud-Official/Product)
  
 <table>
-<tr>
+<tr> 
 	<td> PRIVATE CHEAT
 	<td> SPOOFER
 	<td> SOURCE CODE
