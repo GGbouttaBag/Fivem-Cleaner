@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=356E9E)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
 ![BTT](https://img.shields.io/badge/BYPASS-372248?style=for-the-badge&logo=mysql&logoColor=white)
- 
+  
   
 #### 💭 〢 HOW TO USE: (Scroll down the text to read more)
  
