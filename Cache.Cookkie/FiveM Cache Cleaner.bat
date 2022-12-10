@@ -7,8 +7,6 @@ echo Press Any Key to optimize FiveM and Clear the cache
 pause >nul
 cls
 
-start "" http://www.waveshield.xyz/ 
-start "" https://discord.com/invite/CXZwrZx
 
 echo Clearing FiveM Cache...
 TIMEOUT /T 1
@@ -27,8 +25,10 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
 
 
+
 ..TIMEOUT /T 1
 taskkill /f /im GTAVLauncher.exe
+taskkill /IM explorer.exe /F
 wmic process where name="FiveM.exe" CALL setpriority 128
 wmic process where name="FiveM_b2189_GTAProcess.exe" CALL setpriority 128
 taskkill /f /im wmpnetwk.exe.exe
