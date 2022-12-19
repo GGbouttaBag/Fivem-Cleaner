@@ -1,5 +1,5 @@
 @echo off
-title FiveM Cleaner ::: KALASH LUA ::: discord.gg/BukSCSnDjn
+title FiveM Cleaner ::: KALASH LUA ::: https://discord.gg/MBTkVcJefp
 
 :: Set the console text color to bright yellow
 color e
