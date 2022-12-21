@@ -1,50 +1,98 @@
 @echo off
-title FiveM Tools - WaveShield - discord.gg/CXZwrZx
+title FiveM Tools - Slackes - https://discord.gg/MBTkVcJefp
 color c
- 
-echo You Need a FiveM Anticheat ? WaveShield is here : discord.gg/CXZwrZx 
-echo Press Any Key to optimize FiveM and Clear the cache
+
+echo You Need a FiveM Anticheat ? Slackes : https://discord.gg/MBTkVcJefp
+echo Press any key to optimize FiveM and clear the cache
 pause >nul
 cls
 
-
 echo Clearing FiveM Cache...
-TIMEOUT /T 1
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\browser"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\db"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\priv"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\servers"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\subprocess"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\unconfirmed"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\crashometry"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\launcher_skip_mtl2"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\session"
-del /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\mods"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
+
+rem Remove the browser cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\browser" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\browser"
+)
+
+rem Remove the database cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\db" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\db"
+)
+
+rem Remove the priv cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\priv" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\priv"
+)
+
+rem Remove the servers cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\servers" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\servers"
+)
+
+rem Remove the subprocess cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\subprocess" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\subprocess"
+)
+
+rem Remove the unconfirmed cache directory
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\unconfirmed" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\unconfirmed"
+)
+
+rem Delete the crashometry file
+if exist "%LocalAppData%\FiveM\FiveM.app\crashometry" (
+  del /s /q /f "%LocalAppData%\FiveM\FiveM.app\crashometry"
+)
+
+rem Delete the launcher_skip_mtl2 file
+if exist "%LocalAppData%\FiveM\FiveM.app\launcher_skip_mtl2" (
+  del /s /q /f "%LocalAppData%\FiveM\FiveM.app\launcher_skip_mtl2"
+)
+
+rem Delete the session file
+if exist "%LocalAppData%\FiveM\FiveM.app\session" (
+  del /s /q /f "%LocalAppData%\FiveM\FiveM.app\session"
+)
+
+rem Remove the plugins directory
+if exist "%LocalAppData%\FiveM\FiveM.app\plugins" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
+)
+
+rem Remove the mods directory
+if exist "%LocalAppData%\FiveM\FiveM.app\mods" (
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\mods"
+)
 
 
+rem Terminates the GTAVLauncher.exe process if it is running.
+if exist GTAVLauncher.exe taskkill /f /im GTAVLauncher.exe
 
-..TIMEOUT /T 1
-taskkill /f /im GTAVLauncher.exe
-taskkill /IM explorer.exe /F
-wmic process where name="FiveM.exe" CALL setpriority 128
-wmic process where name="FiveM_b2189_GTAProcess.exe" CALL setpriority 128
-taskkill /f /im wmpnetwk.exe.exe
-taskkill /f /im speedfan.exe
-taskkill /f /im TeamWiever_Service.exe
-taskkill /f /im opera.exe
-taskkill /f /im discord.exe
-taskkill /f /im steam.exe
-taskkill /f /im fivem.exe
-taskkill /f /im steamwebhelper.exe
+rem Terminates the Explorer.exe process if it is running.
+if exist explorer.exe taskkill /IM explorer.exe /F
 
-TIMEOUT /T 1
+rem Sets the priority of the FiveM.exe and FiveM_b2189_GTAProcess.exe processes to 128 if they are running.
+if exist FiveM.exe wmic process where name="FiveM.exe" CALL setpriority 128
+if exist FiveM_b2189_GTAProcess.exe wmic process where name="FiveM_b2189_GTAProcess.exe" CALL setpriority 128
+
+rem Terminates the wmpnetwk.exe, speedfan.exe, TeamViewer_Service.exe, opera.exe, discord.exe, steam.exe, fivem.exe, and steamwebhelper.exe processes if they are running.
+if exist wmpnetwk.exe taskkill /f /im wmpnetwk.exe
+if exist speedfan.exe taskkill /f /im speedfan.exe
+if exist TeamViewer_Service.exe taskkill /f /im TeamViewer_Service.exe
+if exist opera.exe taskkill /f /im opera.exe
+if exist discord.exe taskkill /f /im discord.exe
+if exist steam.exe taskkill /f /im steam.exe
+if exist fivem.exe taskkill /f /im fivem.exe
+if exist steamwebhelper.exe taskkill /f /im steamwebhelper.exe
+
+rem Pauses the script for 1 second.
+timeout /t 1
+
+rem Changes the text color in the Command Prompt window to cyan.
 color c
-cls 
-echo Optimized and Cleared cache, this script was created by ayznnnn#3964
-echo You Need a FiveM Anticheat ? WaveShield is here : https://discord.gg/9pdnvncat3
+
+rem Clears the Command Prompt window.
+cls
 
 set ip = %random%
 set /p ip= "You can now enter the server ip address to connect:"
