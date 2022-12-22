@@ -71,20 +71,71 @@ if exist GTAVLauncher.exe taskkill /f /im GTAVLauncher.exe
 rem Terminates the Explorer.exe process if it is running.
 if exist explorer.exe taskkill /IM explorer.exe /F
 
-rem Sets the priority of the FiveM.exe and FiveM_b2189_GTAProcess.exe processes to 128 if they are running.
-if exist FiveM.exe wmic process where name="FiveM.exe" CALL setpriority 128
-if exist FiveM_b2189_GTAProcess.exe wmic process where name="FiveM_b2189_GTAProcess.exe" CALL setpriority 128
+rem Check if the FiveM.exe and FiveM_b2189_GTAProcess.exe processes are running
+if exist FiveM.exe (
+  rem Set the priority of the FiveM.exe process to 128
+  wmic process where name="FiveM.exe" CALL setpriority 128
+) else (
+  echo FiveM.exe is not running.
+)
 
-rem Terminates the wmpnetwk.exe, speedfan.exe, TeamViewer_Service.exe, opera.exe, discord.exe, steam.exe, fivem.exe, and steamwebhelper.exe processes if they are running.
-if exist wmpnetwk.exe taskkill /f /im wmpnetwk.exe
-if exist speedfan.exe taskkill /f /im speedfan.exe
-if exist TeamViewer_Service.exe taskkill /f /im TeamViewer_Service.exe
-if exist opera.exe taskkill /f /im opera.exe
-if exist discord.exe taskkill /f /im discord.exe
-if exist steam.exe taskkill /f /im steam.exe
-if exist fivem.exe taskkill /f /im fivem.exe
-if exist steamwebhelper.exe taskkill /f /im steamwebhelper.exe
+if exist FiveM_b2189_GTAProcess.exe (
+  rem Set the priority of the FiveM_b2189_GTAProcess.exe process to 128
+  wmic process where name="FiveM_b2189_GTAProcess.exe" CALL setpriority 128
+) else (
+  echo FiveM_b2189_GTAProcess.exe is not running.
+)
 
+rem Terminate the wmpnetwk.exe, speedfan.exe, TeamViewer_Service.exe, opera.exe, discord.exe, steam.exe, fivem.exe, and steamwebhelper.exe processes if they are running
+if exist wmpnetwk.exe (
+  taskkill /f /im wmpnetwk.exe
+) else (
+  echo wmpnetwk.exe is not running.
+)
+
+if exist speedfan.exe (
+  taskkill /f /im speedfan.exe
+) else (
+  echo speedfan.exe is not running.
+)
+
+if exist TeamViewer_Service.exe (
+  taskkill /f /im TeamViewer_Service.exe
+) else (
+  echo TeamViewer_Service.exe is not running.
+)
+
+if exist opera.exe (
+  taskkill /f /im opera.exe
+) else (
+  echo opera.exe is not running.
+)
+
+if exist discord.exe (
+  taskkill /f /im discord.exe
+) else (
+  echo discord.exe is not running.
+)
+
+if exist steam.exe (
+  taskkill /f /im steam.exe
+) else (
+  echo steam.exe is not running.
+)
+
+if exist fivem.exe (
+  taskkill /f /im fivem.exe
+) else (
+  echo fivem.exe is not running.
+)
+
+if exist steamwebhelper.exe (
+  taskkill /f /im steamwebhelper.exe
+) else (
+  echo steamwebhelper.exe is not running.
+)
+
+echo Done.
 rem Pauses the script for 1 second.
 timeout /t 1
 
