@@ -145,11 +145,29 @@ color c
 rem Clears the Command Prompt window.
 cls
 
-set ip = %random%
-set /p ip= "You can now enter the server ip address to connect:"
+rem Check if FiveM is installed
+if not exist "C:\Program Files\Citizen\FiveM\FiveM.exe" (
+  echo FiveM is not installed on this system. Please install FiveM before running this script.
+  goto :EOF
+)
+
+:input_loop
+set /p ip=Enter the server IP address to connect: 
+if "%ip%"=="" (
+  echo You must enter a valid IP address.
+  goto :input_loop
+)
+
 echo Connecting to %ip% ...
 start "" "fivem://connect/%ip%"
-timeout /t 10 /nobreak
+
+:timeout_loop
+timeout /t 10 >nul
+if not exist "C:\Program Files\Citizen\FiveM\FiveM.exe" (
+  echo Connection to %ip% failed.
+  goto :EOF
+)
+goto :timeout_loop
 
 @echo off
 rmdir "%userprofile%\documents\Call of Duty Modern Warfare" /s /q
