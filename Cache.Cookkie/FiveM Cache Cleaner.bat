@@ -169,53 +169,39 @@ if not exist "C:\Program Files\Citizen\FiveM\FiveM.exe" (
 )
 goto :timeout_loop
 
-@echo off
-rmdir "%userprofile%\documents\Call of Duty Modern Warfare" /s /q
-rmdir "%localappdata%\Battle.net" /s /q
-rmdir "%localappdata%\Blizzard Entertainment" /s /q
-rmdir "%appdata%\Battle.net" /s /q
-rmdir "%programdata%\Battle.net" /s /q
-del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War\report"
-del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_2.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_3.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\f_000001.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\index.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\index"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_2"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_3"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\f_000001"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\index"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\index.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_0.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_1.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_2.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_3.dcache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_0"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_1"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_2"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_3"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\Cache"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\Logs"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\WidevineCdm"
-del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\CachedData"
-del /s /f "%path%\Users\%username%\AppData\Local\Blizzard Entertainment"
-del /s /f "%path%\Users\%username%\AppData\Roaming\Battle.net"
-del /s /f "%path%\ProgramData\Battle.net"
-del /s /f "%path%\ProgramData\Blizzard Entertainment"
-reg delete "HKEY_CURRENT_USER\Software\Blizzard Entertainment" /f
-reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Blizzard Entertainment" /f
-reg delete "HKEY_CURRENT_USER\Software\Blizzard Entertainment\Battle.net\Identity" /f
-reg delete "HKEY_CLASSES_ROOT\fivem" /f
-reg delete "HKEY_CLASSES_ROOT\discord" /f
-reg delete "HKEY_CLASSES_ROOT\fivem_process" /f
-exit
+echo This script will delete certain directories and files related to the Call of Duty Modern Warfare and Call of Duty Black Ops Cold War video games.
+echo Please make sure you have backed up any important data before running this script.
+echo.
+echo Are you sure you want to continue? (Y/N)
+set /p confirm=
+if /i {%confirm%} == {Y} goto continue
+if /i {%confirm%} == {N} goto end
+echo Invalid input. Exiting script.
+goto end
+
+:continue
+
+echo Deleting directories and files...
+
+rmdir "%userprofile%\documents\Call of Duty Modern Warfare" /s /q 2>nul
+rmdir "%localappdata%\Battle.net" /s /q 2>nul
+rmdir "%localappdata%\Blizzard Entertainment" /s /q 2>nul
+rmdir "%appdata%\Battle.net" /s /q 2>nul
+rmdir "%programdata%\Battle.net" /s /q 2>nul
+del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War\report" 2>nul
+del /s /f "%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_2.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_3.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\f_000001.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\index.dcache" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\index" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1" 2>nul
+del /s /f "%path%\Users\%username%\AppData\Local\
 
 
 exit
