@@ -11,7 +11,7 @@
    
 ### 📜 〢 Use
  
-- Restore Windows before use 
+- Restore Windows before use  
 - Log out Discord & Steam
 
 ### Step
