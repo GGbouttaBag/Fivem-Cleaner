@@ -9,18 +9,24 @@
 
   
    
-### 📜 〢 Use
+### 📜 〢 Read
  
 - Restore Windows before use  
 - Log out Discord & Steam
 
-### Step
 
-- FiveM Cache Cleaner
-- Cleaner Servers
-- RemoveLog
+### <a id="setup"></a> 📁 〢 How To Use
 
-- Help [Discord Server](https://discord.gg/MBTkVcJefp)
+Order the steps to use as follows.
+
+1) FiveM Cache Cleaner.bat
+2) Cleaner Servers.bat
+3) RemoveLog.bat
+
+
+## <a id="setup2"></a> 📞 〢 Support
+- If you have any questions or don't understand the instructions, join Discord for help.
+- [Discord](https://discord.gg/MBTkVcJefp)
 
 --- 
 
@@ -59,5 +65,10 @@ A website that I created to introduce myself from start to finish. hope you like
 
 ---
 
-<h2 align="center"> Copyright © 2021 - 2022
+  <br>
+
+<p align="center">
+  Copyright © 2021 - 2022
+<br>
+
 
