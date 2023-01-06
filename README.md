@@ -25,6 +25,7 @@ Order the steps to use as follows.
 
 
 ## <a id="setup2"></a> 📞 〢 Support
+- If the free version does not work The last option is to pay. Read more below.
 - If you have any questions or don't understand the instructions, join Discord for help.
 - [Discord](https://discord.gg/MBTkVcJefp)
 
