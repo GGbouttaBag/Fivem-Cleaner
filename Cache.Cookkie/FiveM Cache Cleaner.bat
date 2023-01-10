@@ -1,28 +1,19 @@
 @echo off
-title FiveM Tools - Slackes - https://discord.gg/MBTkVcJefp
+title FiveM Cache Cleaner
 color c
 
-echo You Need a FiveM Anticheat ? Slackes : https://discord.gg/MBTkVcJefp
-echo Press any key to optimize FiveM and clear the cache
+echo This script will clear the cache of FiveM.
+echo Press any key to continue or close this window to exit.
 pause >nul
-cls
 
-echo Clearing FiveM Cache...
-
-rem Remove the browser cache directory
-if exist "%LocalAppData%\FiveM\FiveM.app\cache\browser" (
-  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\browser"
+if exist "%LocalAppData%\FiveM\FiveM.app\cache\" (
+  echo Clearing FiveM cache...
+  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\"
+  echo Done!
+) else (
+  echo FiveM cache not found.
 )
 
-rem Remove the database cache directory
-if exist "%LocalAppData%\FiveM\FiveM.app\cache\db" (
-  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\db"
-)
-
-rem Remove the priv cache directory
-if exist "%LocalAppData%\FiveM\FiveM.app\cache\priv" (
-  rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\priv"
-)
 
 rem Remove the servers cache directory
 if exist "%LocalAppData%\FiveM\FiveM.app\cache\servers" (
