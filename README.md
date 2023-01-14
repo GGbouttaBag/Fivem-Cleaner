@@ -1,28 +1,34 @@
-## Fivem Cleaner
-![BTT](https://img.shields.io/badge/-Batch_FILE-black?style=for-the-badge&logo=css3&logoColor=2091EB)
-![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=356E9E)
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
-![BTT](https://img.shields.io/badge/BYPASS-372248?style=for-the-badge&logo=mysql&logoColor=white)
+<h1 align="center">
+  Fivem Cleaner
+</h1>
+
+<p align="center">
+  Delete all trace files and login history.
+</p>
+
+ 
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/Slackes/Fivem-Cleaner?style=flat-square"/>
+  <img src="https://img.shields.io/github/last-commit/Slackes/Fivem-Cleaner?style=flat-square"/>
+  <img src="https://img.shields.io/github/stars/Slackes/Fivem-Cleaner?color=5ac18e&label=Stars&style=flat-square"/>
 
 ---
-
-
   
    
 ### 📜 〢 Read
  
 - Restore Windows before use  
 - Log out Discord & Steam
+- Change Rockstar Account
 
 
-### <a id="setup"></a> 📁 〢 How To Use
+### <a id="setup"></a> 📁 〢 Spoofer
 
 Order the steps to use as follows.
 
-1) FiveM Cache Cleaner.bat
-2) Cleaner Servers.bat
-3) RemoveLog.bat
-
+- Change Serial / Spoofer.bat
+- Remove - Cleaner / Remove Trace & Clean.bat
 
 ## <a id="setup2"></a> 🗒 〢 Product
 - If the free version does not work You can pay to buy a personal project.
