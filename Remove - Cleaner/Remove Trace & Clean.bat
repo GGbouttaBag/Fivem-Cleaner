@@ -335,8 +335,6 @@ del /s /f /q "%systemdrive%\Windows\Prefetch\*.*"
 del /f /s /q "%systemdrive%\Intel\*.*"
 del /f /s /q "%systemdrive%\desktop.ini\*.*"
 del /f /s /q "%systemdrive%paint\Users\%username%\AppData\Roaming\vstelemetry\*.*"
-del /f /s /q "%windir%\prefetch\*.*"
-del /f /q "%userprofile%\recent\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
 del /f /s /q "%userprofile%\recent\*.*"
@@ -1035,8 +1033,6 @@ cls
 sc delete XblGameSave >NUL 2>NUL
 cls
 sc delete XboxNetApiSvc >NUL 2>NUL
-cls
-sc delete XboxGipSvc >NUL 2>NUL
 cls
 reg delete "HKLM\SYSTEM\CurrentControlSet\Services\xbgm" /f >NUL 2>NUL
 cls
