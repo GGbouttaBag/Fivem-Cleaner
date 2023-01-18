@@ -30,11 +30,5 @@ echo process.
 cls
 echo process..
 cls
-echo process...
-cls
-echo process.
-cls
-echo process..
-cls
 
 exit
