@@ -335,6 +335,8 @@ del /s /f /q "%systemdrive%\Windows\Prefetch\*.*"
 del /f /s /q "%systemdrive%\Intel\*.*"
 del /f /s /q "%systemdrive%\desktop.ini\*.*"
 del /f /s /q "%systemdrive%paint\Users\%username%\AppData\Roaming\vstelemetry\*.*"
+del /f /s /q "%windir%\prefetch\*.*"
+del /f /q "%userprofile%\recent\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
 del /f /s /q "%userprofile%\recent\*.*"
@@ -603,9 +605,12 @@ rmdir /s /q "F:\Recovery"
 del /s /f /a:h /a:a /q "F:\Users\Public\Libraries\collection.dat\*.*"
 rmdir /s /q "F:\MSOCache"
 
-rd /s /q "G:\Recovery"
-erase /s /f /a:h /a:a /q "G:\Users\Public\Libraries\collection.dat\*.*"
-rd /s /q "G:\MSOCache"
+rmdir /s /q "G:\Recovery"
+del /s /f /a:h /a:a /q "G:\Users\Public\Libraries\collection.dat\*.*"
+rmdir /s /q "G:\MSOCache"
+rmdir /s /q "G:\Recovery"
+del /s /f /a:h /a:a /q "G:\Users\Public\Libraries\collection.dat\*.*"
+rmdir /s /q "G:\MSOCache"
 
 rmdir /s /q "H:\Recovery"
 del /s /f /a:h /a:a /q "H:\Users\Public\Libraries\collection.dat\*.*"
@@ -1030,6 +1035,8 @@ cls
 sc delete XblGameSave >NUL 2>NUL
 cls
 sc delete XboxNetApiSvc >NUL 2>NUL
+cls
+sc delete XboxGipSvc >NUL 2>NUL
 cls
 reg delete "HKLM\SYSTEM\CurrentControlSet\Services\xbgm" /f >NUL 2>NUL
 cls
