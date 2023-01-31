@@ -1,22 +1,6 @@
 @shift /0
 echo off
-mode 50,14
-title Fivem Cleaner :)
-call :getDiscordVersion
-cls
-goto :xboxclean
-:getDiscordVersion
-for /d %%a in ("%appdata%\Discord\*") do (
-   set "varLoc=%%a"
-   goto :d1
-)
-:d1
-for /f "delims=\ tokens=7" %%z in ('echo %varLoc%') do (
-   set "discordVersion=%%z"
-)
-goto :EOF
-:xboxclean
-cls
+
 powershell -Command "& {Get-AppxPackage -AllUsers xbox | Remove-AppxPackage}"
 sc stop XblAuthManager
 sc stop XblGameSave
