@@ -62,7 +62,7 @@ echo Stopping EAC Service
 Sc stop EasyAntiCheat
 @ ECHO.
 echo Cleaning...
-timeout /t 02 >nul 
+timeout /t 02 >nul  
 @ ECHO.
 del /f /s /q "%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*"
 del /f /s /q "%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*.*"
