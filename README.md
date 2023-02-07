@@ -1,5 +1,5 @@
 <h1 align="center">
-  Fivem Cleaner
+  Fivem Cleaner 🗒
 </h1>
 
 <p align="center">
@@ -43,9 +43,9 @@ Order the steps to use as follows.
     </a>
 </p> 
  
-## 💬 ・[Discord](https://discord.gg/2euDQqzD8Y) 
+## 💬 ・[Discord Server](https://discord.gg/2euDQqzD8Y) 
 
- ### 🛒〢 `SHOP`
+ ### 🛒〢 `PRODUCT`
  
 <table>
 <tr>
@@ -62,7 +62,7 @@ Order the steps to use as follows.
 - Undetected
 - Custom Feature if you want `(Example: Aimbot + Esp + Skin Changers)`
 
-### ⚓〢 Warranty
+### 🔱〢 Warranty
 
 - Support 24 Hr
 - Update Free
@@ -77,5 +77,6 @@ A website that I created to introduce myself from start to finish. hope you like
 <p align="center">
   Copyright © 2021 - 2022
 <br>
+
 
 
