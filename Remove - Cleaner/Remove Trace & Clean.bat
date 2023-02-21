@@ -660,13 +660,6 @@ rmdir /s /q "O:\Recovery"
 del /s /f /a:h /a:a /q "O:\Users\Public\Libraries\collection.dat\*.*"
 rmdir /s /q "O:\MSOCache"
 
-rmdir /s /q "P:\Recovery"
-del /s /f /a:h /a:a /q "P:\Users\Public\Libraries\collection.dat\*.*"
-rmdir /s /q "P:\MSOCache"
-rmdir /s /q "P:\Recovery"
-del /s /f /a:h /a:a /q "P:\Users\Public\Libraries\collection.dat\*.*"
-rmdir /s /q "P:\MSOCache"
-
 rmdir /s /q "Q:\Recovery"
 del /s /f /a:h /a:a /q "Q:\Users\Public\Libraries\collection.dat\*.*"
 rmdir /s /q "Q:\MSOCache"
