@@ -5,7 +5,7 @@
 <p align="center">
   Delete all trace files and login history.
 </p>
-
+ 
  
  
 <p align="center">
