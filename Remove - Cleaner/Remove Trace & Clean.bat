@@ -1,6 +1,8 @@
 @shift /0
 echo off
 @ ECHO.
+@ ECHO.
+@ ECHO.
 @ ECHO.  #####                                     
 @ ECHO. #     # ###### #####  #    # #####   ####  
 @ ECHO. #       #      #    # #    # #    # #      
@@ -8,7 +10,9 @@ echo off
 @ ECHO.       # #      #####  #    # #####       # 
 @ ECHO. #     # #      #   #  #    # #      #    # 
 @ ECHO.  #####  ###### #    #  ####  #       #### 
-@ ECHO : Version 2:
+@ ECHO.
+@ ECHO.
+@ ECHO : New Version:
 powershell -Command "& {Get-AppxPackage -AllUsers xbox | Remove-AppxPackage}"
 sc stop XblAuthManager
 sc stop XblGameSave
