@@ -1,5 +1,11 @@
 @shift /0
 echo off
+title FiveM Cleaner & Spoofer By : GlockBaby
+color 0a
+echo FiveM Cleaner & Spoofer By : GlockBaby https://discord.gg/YF2Jhxsh
+echo The Perfect Tool For Wiping All Socials Connected To FiveM Including 
+echo Steam, Discord, and Ready For New Rockstar Account
+echo You Need a FIVEM READY rockstar account, you can purchase them at my discord above.
 @ ECHO.
 @ ECHO.
 @ ECHO.
@@ -13,6 +19,12 @@ echo off
 @ ECHO.   
 @ ECHO.      
 @ ECHO. 
+echo.
+pause
+cls
+echo Do you want to start the clean?
+pause 
+cls
 @ ECHO : New Version:
 powershell -Command "& {Get-AppxPackage -AllUsers xbox | Remove-AppxPackage}"
 sc stop XblAuthManager
@@ -1108,5 +1120,10 @@ rmdir /s /q C:\Users\%USERNAME%\AppData\Local\FiveM.app\crashes
 cls
 msg * TAREFA FINALIZADA COM SUCESSO!
 echo.
+echo Process Finished. Spoof Engages. ^<Press Any Key To Continue^>
+goto end
+:end
+echo.
 msg * Process Finish ! 
+timeout 2
 exit
