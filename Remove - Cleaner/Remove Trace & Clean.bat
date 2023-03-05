@@ -5,20 +5,7 @@ color 0a
 echo FiveM Cleaner & Spoofer By : GlockBaby https://discord.gg/YF2Jhxsh
 echo The Perfect Tool For Wiping All Socials Connected To FiveM Including 
 echo Steam, Discord, and Ready For New Rockstar Account
-echo You Need a FIVEM READY rockstar account, you can purchase them at my discord above.
-@ ECHO.
-@ ECHO.
-@ ECHO.
-@ ECHO.                         
-@ ECHO.   ░██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗  ██████╗░░█████╗░██████╗░██╗░░░██╗
-@ ECHO.   ██╔════╝░██║░░░░░██╔══██╗██╔══██╗██║░██╔╝  ██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝
-@ ECHO.   ██║░░██╗░██║░░░░░██║░░██║██║░░╚═╝█████═╝░  ██████╦╝███████║██████╦╝░╚████╔╝░
-@ ECHO.   ██║░░╚██╗██║░░░░░██║░░██║██║░░██╗██╔═██╗░  ██╔══██╗██╔══██║██╔══██╗░░╚██╔╝░░
-@ ECHO.   ╚██████╔╝███████╗╚█████╔╝╚█████╔╝██║░╚██╗  ██████╦╝██║░░██║██████╦╝░░░██║░░░
-@ ECHO.   ░╚═════╝░╚══════╝░╚════╝░░╚════╝░╚═╝░░╚═╝  ╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░     
-@ ECHO.   
-@ ECHO.      
-@ ECHO. 
+echo You Need a FIVEM READY rockstar account, you can purchase them at my discord above. 
 echo.
 pause
 cls
